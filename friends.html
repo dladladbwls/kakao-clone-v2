@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Friends ㅣ Kakao Clone</title>
   </head>
   <body>
+    <div class="status-bar">
      <div class="status-bar__column">
          <span class="status-bar__clock">13:54</span>
      </div>
@@ -30,11 +32,12 @@
                   <i class="fas fa-cog"></i>
               </span>
           </div>
+        </div>
       </header>
       <main class="friends">
           <header class="friends__header">
-            <div class="friends__friend friend friend--lg">
-              <div class="friends__column">
+            <div class="friends__friend friend">
+              <div class="friend__column">
                 <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
                 <div class="friend__content">
                     <span class="friend__name">
@@ -51,7 +54,7 @@
             <h5 class="friends__title">Plus Friend</h5>
             <div class="friends__friend friend">
               <div class="friend__column">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+                <img src="images/avatar.jpg" class="friend__avatar" />
                 <div class="friend__content">
                   <span class="friend__name">
                       Plus Friend
@@ -59,11 +62,13 @@
               </div>
             </div>
           </div>
+        </div>
+
           <ul class="friends__list">
-            <h5 class="friens__title">Friends 14</h5>
+            <h5 class="friends__title">Friends 14</h5>
             <li class="friends__friend friend friend--lg">
               <div class="friend__column">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+                <img src="images/avatar.jpg" class="friend__avatar" />
                 <div class="friend__content">
                     <span class="friend__name">
                         Rachel Im
@@ -75,8 +80,9 @@
               </div>
               <div class="friend__column">
                 <div class="friend__now-listening">
-                  <span>FTISLAND (FT Rachel Im)</span>
+                  <span>FTISLAND (FT Rachel Im)
                   <i class="fas fa-play"></i>
+                  </span>
                 </div>
               </div>
             </li> 
@@ -88,6 +94,7 @@
                 <i class="fas fa-user"></i>
               </a></li>
               <li class="nav__list-item"><a href="index.html" class="nav__list-link">
+                <div class="nav__badge">8</div>
                 <i class="far fa-comment"></i>
               </a></li>
               <li class="nav__list-item"><a href="find.html" class="nav__list-link">
