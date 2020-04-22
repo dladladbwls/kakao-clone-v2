@@ -12,6 +12,7 @@
   font-size: 20px;
   margin-left: 20px;
   cursor: pointer;
+  color: #1a1a1a;
 }
 .header .header__header-column {
   display: flex;
