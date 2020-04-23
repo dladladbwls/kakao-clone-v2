@@ -1,5 +1,16 @@
+.chats-body .header-wrapper {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 5px 0px;
+  background-color: white;
+  box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.3),
+    0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+}
+
 .chats-body {
   padding: 10px 0px;
+  padding-top: 110px;
 }
 
 .chats-body .header,
@@ -71,7 +82,6 @@
 .message {
   display: flex;
   align-items: flex-start;
-  width: 50%;
   margin-bottom: 20px;
 }
 
