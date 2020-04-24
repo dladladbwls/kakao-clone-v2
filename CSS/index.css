@@ -1,0 +1,13 @@
+.chat__badge {
+  color: white;
+  font-size: 10px;
+  background-color: #dc5d46;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 25px;
+}

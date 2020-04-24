@@ -11,3 +11,20 @@
   opacity: 0.6;
   margin-bottom: 12px;
 }
+
+.friend--lg {
+  padding-bottom: 20px;
+}
+
+.plus-friend-i {
+  font-size: 32px;
+  color: #432517;
+  background-color: #fae100;
+  padding: 7px;
+  border-radius: 15px;
+  margin-right: 18px;
+}
+
+.friend__now-listening i {
+  color: #12c147;
+}
